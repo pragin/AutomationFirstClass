@@ -23,8 +23,5 @@ public class BuildComputer {
 //        Get the title and print it to the console
         String title = driver.findElement(By.xpath("//div[@class='product-name']/h1[contains(text(),'Build your own computer')]")).getText();
         System.out.println(title);
-
-
-
     }
 }
